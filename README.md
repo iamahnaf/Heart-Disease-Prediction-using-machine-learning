@@ -2,6 +2,20 @@
 
 This repository contains a heart disease prediction project built from a Jupyter notebook workflow and a lightweight Streamlit app. The notebook handles data cleaning, visualization, feature engineering, and model training. The app uses the saved model artifacts to predict whether a case is high or low risk.
 
+
+## Model Used
+
+The final model used in this project is KNN (K-Nearest Neighbors).
+
+## Other Models Tried
+
+- Logistic Regression - accuracy: 0.8696, F1 score: 0.8857
+- KNN - accuracy: 0.8641, F1 score: 0.8815
+- Naive Bayes - accuracy: 0.8533, F1 score: 0.8683
+- Decision Tree - accuracy: 0.7717, F1 score: 0.7941
+- SVM - accuracy: 0.8478, F1 score: 0.867
+
+
 ## Project Files
 
 - [app.py](app.py) - Streamlit app entry point
